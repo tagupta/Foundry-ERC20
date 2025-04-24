@@ -1,0 +1,35 @@
+Compiling 28 files with Solc 0.8.29
+Solc 0.8.29 finished in 1.31s
+Compiler run successful!
+Analysing contracts...
+Running tests...
+
+Ran 15 tests for test/OurTokenTest.t.sol:OurTokenTest
+[PASS] testAllowanceInifiniteApproval() (gas: 73061)
+[PASS] testApproveEventEmitted() (gas: 41377)
+[PASS] testInitialSupply() (gas: 16398)
+[PASS] testMetaData() (gas: 22389)
+[PASS] testMintingTest() (gas: 14103)
+[PASS] testSelfTransfer() (gas: 21256)
+[PASS] testSelfTransferFrom() (gas: 37532)
+[PASS] testTranfertoContract() (gas: 83594)
+[PASS] testTransferFromWithInsufficientBalance() (gas: 44026)
+[PASS] test_BalanceOfBob() (gas: 13696)
+[PASS] test_CheckAllowanceWorks() (gas: 80630)
+[PASS] test_TransferEventEmitted() (gas: 46615)
+[PASS] test_TransferInsufficientBalance() (gas: 20178)
+[PASS] test_tranferToZeroAddress() (gas: 13054)
+[PASS] test_transferSuccess() (gas: 48743)
+Suite result: ok. 15 passed; 0 failed; 0 skipped; finished in 1.11ms (3.48ms CPU time)
+
+Ran 1 test suite in 220.60ms (1.11ms CPU time): 15 tests passed, 0 failed, 0 skipped (15 total tests)
+
+╭-----------------------------+---------------+---------------+---------------+---------------╮
+| File                        | % Lines       | % Statements  | % Branches    | % Funcs       |
++=============================================================================================+
+| script/DeployOurToken.s.sol | 100.00% (5/5) | 100.00% (5/5) | 100.00% (0/0) | 100.00% (1/1) |
+|-----------------------------+---------------+---------------+---------------+---------------|
+| src/OurToken.sol            | 100.00% (2/2) | 100.00% (1/1) | 100.00% (0/0) | 100.00% (1/1) |
+|-----------------------------+---------------+---------------+---------------+---------------|
+| Total                       | 100.00% (7/7) | 100.00% (6/6) | 100.00% (0/0) | 100.00% (2/2) |
+╰-----------------------------+---------------+---------------+---------------+---------------╯
